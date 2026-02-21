@@ -19,5 +19,9 @@ stage('Deploy') {
    sh 'echo "Deploying the application"'
    }
   }
+  stage('input') {
+  steps {
+  // Deploy the application (replace with your deployment commands)
+   input 'do you want do deploy'
  }
 }
