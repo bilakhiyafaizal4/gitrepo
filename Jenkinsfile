@@ -22,6 +22,6 @@ stage('Deploy') {
   stage('input') {
   steps {
   // Deploy the application (replace with your deployment commands)
-   input 'do you want do deploy'
+   input 'do you want do deplooy'
  }
 }
